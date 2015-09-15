@@ -1,4 +1,4 @@
-//
+ //
 // RETableViewDateTimeCell.m
 // RETableViewManager
 //
@@ -42,7 +42,7 @@
 
 + (BOOL)canFocusWithItem:(REDateTimeItem *)item
 {
-    return !item.inlineDatePicker;
+    return NO;
 }
 
 @synthesize item = _item;
